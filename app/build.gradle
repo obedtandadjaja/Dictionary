@@ -6,7 +6,7 @@ android {
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
     defaultConfig {
-        applicationId "com.example.obedtandadjaja.dictionary"
+        applicationId "com.app.obedtandadjaja.dictionary"
         minSdkVersion 19
         targetSdkVersion 21
         versionCode 1

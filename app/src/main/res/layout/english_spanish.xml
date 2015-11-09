@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#f39c12"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:background="#f39c12">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/button"
+            android:text="Find"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText"
+            android:background="#ffffff"
+            android:paddingLeft="20dp"
+            android:hint="Search Word"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/button"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ffffff"
+        android:padding="20dp"
+        android:scrollbars="vertical"
+        android:fontFamily="sans-serif-medium"/>
+
+</RelativeLayout>
