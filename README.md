@@ -10,4 +10,4 @@ It supports the following translations:
 
 Contact obed.tandadjaja@gmail.com for the apk
 
-Soon to be published in Play Store.
+Published in the Play Store under the name: Simple Dictionary
