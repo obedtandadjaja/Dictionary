@@ -7,6 +7,10 @@ It supports the following translations:
   - English-English
   - English-Indonesian
   - Indonesian-English
+  - English-Chinese
+  - English-French
+  - English-Spanish
+  - English-Korean
 
 Contact obed.tandadjaja@gmail.com for the apk
 
